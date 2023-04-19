@@ -29,7 +29,7 @@ const Preview = () => {
     form["from_name"].value = name;
     form["from_email"].value = email;
 
-    fetch("http://localhost:5000/applicationData", {
+    fetch("https://application-server-nine.vercel.app/applicationData", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
